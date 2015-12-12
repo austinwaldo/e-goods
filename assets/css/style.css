@@ -3,8 +3,8 @@ body{
   margin:0;
 }
 #header{
-  background:rgb(250,250,250);
-  border-bottom:1px solid rgba(50,50,50,0.5);
+  background-color: #46351D;
+  border-bottom:1px solid #FF6103;
   padding:15px 100px;
   overflow:auto;
   margin-bottom:50px;
@@ -36,11 +36,91 @@ body{
 }
 #header .nav li a{
   text-decoration:none;
-  color:blue;
+  color:white;
   margin:0px 10px;
 }
 #products{
   margin:auto 100px;
   padding:25px;
-  background-color:#ccc; /* Remove this line when you begin writing code - nobody wants this crappy background! */
+  background-color:#FF6103;
 }
+#brown{
+  color:#46351D;
+}
+#orange{
+  color:#FF6103;
+}
+#green{
+  color:#646F4B;
+}
+#products #planter img{
+  width:25%;
+  height:25%;
+  margin:15px;
+}
+#products #lightBulb img{
+  width:25%;
+  height:25%;
+  margin:15px;
+}
+#products #dock img{
+  width:25%;
+  height:25%;
+  margin:15px;
+}
+.productHeader{
+  position:relative;
+  bottom:355px;
+  left:345px;
+  font-family:Arial;
+  font-size: 45px;
+  color:#646F4B;
+}
+.productDescription{
+  position:relative;
+  bottom:375px;
+  left:315px;
+  font-family:Arial;
+  font-size: 25px;
+  color:white;
+  margin-left: 35px;
+  width:838px;
+}
+span{
+  position:relative;
+  bottom:375px;
+  left:315px;
+  font-family:Arial;
+  font-size: 45px;
+  color:#46351D;
+  margin-left: 35px;
+  width:838px;
+}
+
+a{
+  position:relative;
+  bottom:375px;
+  left:315px;
+  font-family:Arial;
+  font-size: 45px;
+  color:#46351D;
+  margin-left: 35px;
+  width:838px;
+  text-decoration: none;
+}
+
+a:hover{
+  color:gray;
+}
+
+#dock{
+  position:relative;
+  bottom:565px;
+}
+
+#lightBulb{
+  position:relative;
+  bottom:300px;
+}
+
+
